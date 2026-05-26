@@ -2,6 +2,8 @@
 
 A computer vision pipeline that detects Polish coins (5 PLN and 5 gr) in static images, localizes an orange tray using HSV segmentation + Hough line detection, and computes the total monetary value of coins both on and off the tray.
 
+Evaluation: Full score (10/10) ✅
+
 ---
 
 ## Results
