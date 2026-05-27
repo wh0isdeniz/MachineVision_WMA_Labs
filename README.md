@@ -19,3 +19,13 @@ Real-time detection of a red object in a video stream using HSV color segmentati
 Detects Polish coins (5 PLN and 5 gr) in static images, localizes an orange tray, and computes the total monetary value of coins both on and off the tray.
 
 **Key techniques:** HoughCircles · HoughLinesP · HSV tray segmentation · ring edge-density filter · radius + colour classification
+
+---
+
+### [WMA_Project_03 – Feature-Based Object Detection & Tracking](./WMA_Project_03)
+
+Detects and tracks an object in static images and video using local feature descriptors, Lowe's ratio test, and homography-based localization. Supports ORB, BRISK, and SIFT.
+
+**Key techniques:** ORB / BRISK / SIFT descriptors · BFMatcher + Lowe's ratio test · RANSAC homography · perspective transform
+
+---
