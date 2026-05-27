@@ -29,3 +29,12 @@ Detects and tracks an object in static images and video using local feature desc
 **Key techniques:** ORB / BRISK / SIFT descriptors · BFMatcher + Lowe's ratio test · RANSAC homography · perspective transform
 
 ---
+
+
+### [WMA_Project_04 – Optical Flow Feature Tracking](./WMA_Project_04)
+
+Tracks feature points across video frames using the Lucas-Kanade optical flow algorithm. Accumulates motion trajectories as colored trails and automatically re-detects points when tracking is lost.
+
+**Key techniques:** Shi-Tomasi corner detection · Lucas-Kanade pyramidal optical flow · status filtering · trajectory accumulation
+
+---
