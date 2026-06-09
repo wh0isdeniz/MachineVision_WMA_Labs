@@ -38,3 +38,12 @@ Tracks feature points across video frames using the Lucas-Kanade optical flow al
 **Key techniques:** Shi-Tomasi corner detection · Lucas-Kanade pyramidal optical flow · status filtering · trajectory accumulation
 
 ---
+
+
+### [WMA_Project_05 – CNN Fruit Classification](./WMA_Project_05)
+
+Classifies images into three fruit classes (banana, orange, lemon) using a custom convolutional neural network trained from scratch on a subset of the Fruits 360 dataset. Includes preprocessing, training with early stopping, and single-image inference.
+
+**Key techniques:** Conv2D blocks (32→64→128) · MaxPooling + Dropout · Adam + categorical crossentropy · EarlyStopping with stratified split · Softmax classification
+
+---
