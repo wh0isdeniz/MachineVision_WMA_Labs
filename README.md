@@ -47,3 +47,11 @@ Classifies images into three fruit classes (banana, orange, lemon) using a custo
 **Key techniques:** Conv2D blocks (32→64→128) · MaxPooling + Dropout · Adam + categorical crossentropy · EarlyStopping with stratified split · Softmax classification
 
 ---
+
+### [WMA_Project_06 – YOLO Object Detection & Fine-Tuning](./WMA_Project_06)
+
+Fine-tunes a YOLOv8n object detector on a custom avocado class (not part of COCO) and compares it against the base model on the same image. Supports inference on images, video files, and live camera streams, plus dataset structure validation before training.
+
+**Key techniques:** Ultralytics YOLOv8n · custom-class fine-tuning · YOLO-format dataset preparation · bounding-box parsing + confidence filtering · base vs fine-tuned comparison
+
+---
