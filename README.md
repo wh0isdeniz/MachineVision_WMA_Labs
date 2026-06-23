@@ -55,3 +55,11 @@ Fine-tunes a YOLOv8n object detector on a custom avocado class (not part of COCO
 **Key techniques:** Ultralytics YOLOv8n · custom-class fine-tuning · YOLO-format dataset preparation · bounding-box parsing + confidence filtering · base vs fine-tuned comparison
 
 ---
+
+### [WMA_Project_07 – Vision Transformer vs CNN](./WMA_Project_07)
+
+Implements a Vision Transformer from scratch and benchmarks it against the LAB5 CNN baseline on the same 3-class fruit dataset across three experiments: reduced data, full data with augmentation, and a pretrained ImageNet backbone fine-tuned end-to-end. The ViT matches the CNN's accuracy with ~32× fewer parameters.
+
+**Key techniques:** 16×16 patch embedding · learnable positional encoding · 4-block multi-head self-attention · MLP with GELU · EfficientNetB0 transfer learning · CNN vs ViT comparison
+
+---
